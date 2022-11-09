@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			img{
+				width: 50px;
+				height: 50px;
+				padding-top: 5px;
+				margin-right: 5px;
+			}
+			.A{
+				background-color:blue;
+				display: flex;
+				height: 50px;
+				width: 50px;
+				transition:width 0.5s;
+			}
+			.A:hover{
+				width:200px;
+			}
+			.B{
+				background-color: red;
+				display: flex;
+				height: 50px;
+				width: 50px;
+				transition:width 0.5s;
+			}
+			.B:hover{
+				width: 200px;
+			}
+			p{
+				color: black;
+				overflow:hidden;
+				white-space: nowrap;
+				padding-top: 10px;
+				padding-left: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="A">
+			<p>访客 Vistor&emsp;&emsp;&emsp;&emsp;</p>
+			<img src="./img/1.jpg"/>
+		</div>
+		<div class="B">
+			<p>学生 Student&emsp;&emsp;&emsp;&emsp;</p>
+			<img src="./img/2.jpg">
+		</div>
+	</body>
+</html>
